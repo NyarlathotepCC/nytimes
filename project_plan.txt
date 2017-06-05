@@ -1,0 +1,34 @@
+WHAT IS THE GOAL:
+i want to create a database of all the articles published in the new york times that revolve around a certain topic.
+Further I want to add to this database a year-by-year analysis of the emotional tone of the articles.
+In short, I want to do a time-series analysis of the nytimes reporting on the topic over the last 170 years with a special focus on 
+trends in positive versus negative emotions in the reports.
+
+PLAN:
+    -I need
+    
+        -python code
+            -that extracts the articles by means of the nytimes api
+            -that inserts the articles in the database
+            -that runs the titles and abstracts through the language processing tool (check past pset for nltk)
+            -that assigns the individual positive/versus negative word value to each article
+            -that inserts the negative and positive word value in the database for each article
+            -that depicts the results graphically over time
+    
+        -1 (or 2?) sql database(s)
+            -that store information about the articles/years
+                -id, title, year, abstract, positive words in article, negative words in article, maybe author, maybe nytimes section
+        
+        -output file (format?)
+            -that captures the python output in a plot
+    
+    -TO DO s
+    
+        -check ny times api manual (check)
+        -get api key (check)
+        -create empty sql database (check)
+        -write python code (TO DO)
+        -print out graph (TO DO)
+        -analyze and think about results (TO DO)
+        -make video for CS50
+    

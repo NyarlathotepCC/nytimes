@@ -1,0 +1,4 @@
+query,positive_articles,negative_articles,ratio_PosNeg_articles,neutr_articles,positive_words,negative_words,ratio_PosNeg_words
+
+Democrats,88,52,1.6923076923076923,50,296,224,1.3214285714285714
+Republicans,64,67,0.9552238805970149,59,251,276,0.9094202898550725
